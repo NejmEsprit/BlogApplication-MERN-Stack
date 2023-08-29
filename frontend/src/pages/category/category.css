@@ -1,0 +1,25 @@
+.category{
+    min-height: calc(100vh-130px);
+    padding: 20px;
+}
+.category-title{
+    margin-bottom: 15px;
+    color: var(--primary-color);
+    padding-bottom: 5px;
+    border-bottom: 2px solid gray;
+    font-size: 30px;
+    width: max-content;
+}
+.category-not-found{
+    font-size: 30px;
+    margin: 20px 0;
+     color: darkblue;
+}
+.category-not-found span{
+    color: red;
+}
+.category-noy-found-link{
+    font-size: 21px;
+    text-decoration: underline;
+    font-weight: 500;
+}
